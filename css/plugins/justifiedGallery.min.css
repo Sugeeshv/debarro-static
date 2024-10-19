@@ -85,6 +85,18 @@
   -o-transition: opacity 500ms ease-in;
   transition: opacity 500ms ease-in;
 }
+.justified-gallery > .jg-entry-visible > a > p{
+  color: white;
+}
+.justified-gallery > .jg-entry-visible > a{
+  /* border: solid 2px white; */
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: #cb7529;
+    padding: 10px 20px;
+}
 .justified-gallery > .jg-filtered {
   display: none;
 }
